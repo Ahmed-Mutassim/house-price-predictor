@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Data
+data/*.zip
+data/*.csv
+!data/README.md   # Keep a placeholder file if needed
+
+# ZenML / MLflow
+zenml_stacks/
+mlruns/
+.cache/
+.local_store/
